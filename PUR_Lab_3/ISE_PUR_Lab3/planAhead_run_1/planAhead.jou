@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed May 26 16:15:16 2021
+# Process ID: 10276
+# Log file: C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/pa.fromNetlist.tcl
+set_property iostandard LVCMOS18 [get_ports [list {BTN[5]}]]
+set_property package_pin "" [get_ports [list  {BTN[5]}]]
+set_property package_pin "" [get_ports [list  {BTN[4]}]]
+set_property package_pin "" [get_ports [list  {BTN[4]}]]
+set_property iostandard LVCMOS33 [get_ports [list {BTN[5]} {BTN[4]} {BTN[3]} {BTN[2]} {BTN[1]}]]
+set_property iostandard LVCMOS33 [get_ports [list {an[7]} {an[6]} {an[5]} {an[4]} {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {sseg[6]} {sseg[5]} {sseg[4]} {sseg[3]} {sseg[2]} {sseg[1]} {sseg[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list clk_sys]]
+set_property iostandard LVCMOS33 [get_ports [list f_out]]
+set_property iostandard LVCMOS33 [get_ports [list rst]]
+startgroup
+set_property package_pin H17 [get_ports f_out]
+endgroup
+startgroup
+set_property package_pin E3 [get_ports clk_sys]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports {BTN[5]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {BTN[4]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {BTN[4]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {BTN[4]}]]
+set_property is_loc_fixed true [get_ports [list  {BTN[4]}]]
+set_property is_loc_fixed false [get_ports [list  {BTN[4]}]]
+set_property package_pin "" [get_ports [list  {BTN[4]}]]
+startgroup
+set_property package_pin V4 [get_ports {BTN[3]}]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports {BTN[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {BTN[1]}]
+endgroup
+startgroup
+set_property package_pin U13 [get_ports {an[7]}]
+endgroup
+startgroup
+set_property package_pin K2 [get_ports {an[6]}]
+endgroup
+startgroup
+set_property package_pin T14 [get_ports {an[5]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {an[4]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {an[3]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {an[2]}]
+endgroup
+startgroup
+set_property package_pin J18 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin J17 [get_ports {an[0]}]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports {sseg[6]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {sseg[5]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {sseg[4]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {sseg[3]}]
+endgroup
+startgroup
+set_property package_pin K16 [get_ports {sseg[2]}]
+endgroup
+startgroup
+set_property package_pin R10 [get_ports {sseg[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {sseg[0]}]
+endgroup
+set_property pulltype PULLDOWN [get_ports [list {BTN[5]}]]
+set_property pulltype PULLDOWN [get_ports [list {BTN[4]}]]
+set_property pulltype PULLDOWN [get_ports [list {BTN[3]}]]
+set_property pulltype PULLDOWN [get_ports [list {BTN[2]}]]
+set_property pulltype PULLDOWN [get_ports [list {BTN[1]}]]
+set_property pulltype PULLDOWN [get_ports [list {sseg[6]} {sseg[5]} {sseg[4]} {sseg[3]} {sseg[2]} {sseg[1]} {sseg[0]}]]
+set_property package_pin "" [get_ports [list  {BTN[4]}]]
+save_constraints
+startgroup
+set_property package_pin P17 [get_ports {BTN[5]}]
+endgroup
+startgroup
+set_property package_pin M17 [get_ports {BTN[4]}]
+endgroup
+startgroup
+set_property package_pin M18 [get_ports {BTN[3]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {BTN[2]}]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports {BTN[1]}]
+endgroup
+startgroup
+set_property package_pin C12 [get_ports rst]
+endgroup
+set_property pulltype PULLUP [get_ports [list rst]]
+save_constraints

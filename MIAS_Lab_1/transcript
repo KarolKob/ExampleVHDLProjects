@@ -1,0 +1,196 @@
+# Reading C:/modeltech64_10.7/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project test_signal_generator
+# reading C:\modeltech64_10.7\modelsim.ini
+# Loading project PUR_Lab_1
+# Compile of devices.vhd was successful.
+# Compile of gates.vhd was successful.
+# Compile of mux_4x1.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+PUR_Lab1_macro.do
+# invalid command name "PUR_Lab1_macro.do"
+PUR_Lab1_macro
+# couldn't execute ".\PUR_Lab1_macro": no such file or directory
+C:\Users\IEUser\Desktop\PUR_Lab_1\PUR_Lab1_macro
+# invalid command name "C:UsersIEUserDesktopPUR_Lab_1PUR_Lab1_macro"
+do PUR_Lab1_macro
+# 50
+# Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 02:56:55 on Mar 18,2021
+# vcom -reportprogress 300 -2008 gates.vhd mux_4x1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package gates_pkg
+# -- Compiling package body gates_pkg
+# -- Loading package gates_pkg
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity and3
+# -- Compiling architecture dataflow of and3
+# -- Compiling entity and4
+# -- Compiling architecture dataflow of and4
+# -- Compiling entity and5
+# -- Compiling architecture dataflow of and5
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity or3
+# -- Compiling architecture dataflow of or3
+# -- Compiling entity or4
+# -- Compiling architecture dataflow of or4
+# -- Compiling entity or5
+# -- Compiling architecture dataflow of or5
+# -- Compiling entity inverter
+# -- Compiling architecture dataflow of inverter
+# -- Compiling entity nand2
+# -- Compiling architecture dataflow of nand2
+# -- Compiling entity nand3
+# -- Compiling architecture dataflow of nand3
+# -- Compiling entity nand4
+# -- Compiling architecture dataflow of nand4
+# -- Compiling entity nand5
+# -- Compiling architecture dataflow of nand5
+# -- Compiling entity nor2
+# -- Compiling architecture dataflow of nor2
+# -- Compiling entity nor3
+# -- Compiling architecture dataflow of nor3
+# -- Compiling entity nor4
+# -- Compiling architecture dataflow of nor4
+# -- Compiling entity nor5
+# -- Compiling architecture dataflow of nor5
+# -- Compiling entity not1
+# -- Compiling architecture dataflow of not1
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+# -- Compiling entity xnor2
+# -- Compiling architecture dataflow of xnor2
+# -- Loading package gates_pkg
+# -- Compiling entity mux_4x1
+# -- Compiling architecture struct of mux_4x1
+# End time: 02:56:55 on Mar 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -debugDB work.mux_4x1 
+# Start time: 02:56:55 on Mar 18,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.gates_pkg(body)
+# Loading work.mux_4x1(struct)#1
+# Loading work.inverter(dataflow)#1
+# Loading work.and3(dataflow)#1
+# Loading work.or4(dataflow)#1
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# 0 ps
+# 21 us
+# End time: 04:13:02 on Mar 24,2021, Elapsed time: 145:16:07
+# Errors: 0, Warnings: 0
+# Closing project C:/Users/IEUser/Desktop/PUR_Lab_1/PUR_Lab_1.mpf
+# reading C:\modeltech64_10.7\modelsim.ini
+# Loading project test_signal_generator
+do test_signal_macro
+# Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 04:15:14 on Mar 24,2021
+# vcom -reportprogress 300 -work work -2002 –explicit ./test_signal_generator.vhd 
+# ** Error: (vcom-7) Failed to open design unit file "–explicit" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 04:15:14 on Mar 24,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/modeltech64_10.7/win64/vcom failed.
+# Error in macro ./test_signal_macro line 2
+# C:/modeltech64_10.7/win64/vcom failed.
+#     while executing
+# "vcom -work work -2002 explicit ./test_signal_generator.vhd"
+do test_signal_macro
+# Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 04:19:25 on Mar 24,2021
+# vcom -reportprogress 300 -2008 test_signal_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test_signal_generator
+# -- Compiling architecture behav of test_signal_generator
+# -- Compiling architecture test_bench of test_signal_generator
+# -- Loading entity test_signal_generator
+# End time: 04:19:25 on Mar 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" -debugDB work.test_signal_generator 
+# Start time: 04:19:25 on Mar 24,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_signal_generator(test_bench)#1
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# ** Error: extra characters after close-brace
+# Error in macro ./test_signal_macro line 10
+# extra characters after close-brace
+#     while executing
+# "force s2 1 0, 0 {10 ns},"
+do test_signal_macro
+# Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 04:20:39 on Mar 24,2021
+# vcom -reportprogress 300 -2008 test_signal_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test_signal_generator
+# -- Compiling architecture behav of test_signal_generator
+# -- Compiling architecture test_bench of test_signal_generator
+# -- Loading entity test_signal_generator
+# End time: 04:20:39 on Mar 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 04:20:43 on Mar 24,2021, Elapsed time: 0:01:18
+# Errors: 3, Warnings: 0
+# vsim -voptargs="+acc" -debugDB work.test_signal_generator 
+# Start time: 04:20:43 on Mar 24,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_signal_generator(test_bench)#1
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# ** Error: extra characters after close-brace
+# Error in macro ./test_signal_macro line 12
+# extra characters after close-brace
+#     while executing
+# "force s3(0) 1 0, 0 {10 ns},"
+do test_signal_macro
+# Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 04:21:14 on Mar 24,2021
+# vcom -reportprogress 300 -2008 test_signal_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test_signal_generator
+# -- Compiling architecture behav of test_signal_generator
+# -- Compiling architecture test_bench of test_signal_generator
+# -- Loading entity test_signal_generator
+# End time: 04:21:14 on Mar 24,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 04:21:18 on Mar 24,2021, Elapsed time: 0:00:35
+# Errors: 3, Warnings: 0
+# vsim -voptargs="+acc" -debugDB work.test_signal_generator 
+# Start time: 04:21:18 on Mar 24,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_signal_generator(test_bench)#1
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# 0 ps
+# 105 ns

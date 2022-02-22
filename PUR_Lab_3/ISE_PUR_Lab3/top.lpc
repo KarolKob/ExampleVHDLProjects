@@ -1,0 +1,33 @@
+# top.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Wed May 26 23:42:57 2021
+#The following constraints were newly added
+NET "clk_sys" LOC = E3;
+NET "rst" LOC = C12;
+NET "sseg<0>" LOC = T10;
+NET "sseg<1>" LOC = R10;
+NET "sseg<2>" LOC = K16;
+NET "sseg<3>" LOC = K13;
+NET "sseg<4>" LOC = P15;
+NET "sseg<5>" LOC = T11;
+NET "sseg<6>" LOC = L18;
+NET "BTN<1>" LOC = N17;
+NET "BTN<2>" LOC = P18;
+NET "BTN<3>" LOC = M18;
+NET "BTN<4>" LOC = M17;
+NET "BTN<5>" LOC = P17;
+NET "an<0>" LOC = J17;
+NET "an<1>" LOC = J18;
+NET "an<2>" LOC = T9;
+NET "an<3>" LOC = J14;
+NET "an<4>" LOC = P14;
+NET "an<5>" LOC = T14;
+NET "f_out" LOC = H17;
+NET "an<6>" LOC = K2;
+NET "an<7>" LOC = U13;

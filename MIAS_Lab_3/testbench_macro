@@ -1,0 +1,5 @@
+vcom -2008 sine_wave_tb.vhd
+vsim -voptargs=+acc work.sine_wave_tb
+add wave *  
+run 0.5 ms 
+wave zoom full 

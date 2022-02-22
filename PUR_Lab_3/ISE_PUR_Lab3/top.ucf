@@ -1,0 +1,74 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "BTN[5]" IOSTANDARD = LVCMOS33;
+NET "BTN[4]" IOSTANDARD = LVCMOS33;
+NET "BTN[3]" IOSTANDARD = LVCMOS33;
+NET "BTN[2]" IOSTANDARD = LVCMOS33;
+NET "BTN[1]" IOSTANDARD = LVCMOS33;
+NET "an[7]" IOSTANDARD = LVCMOS33;
+NET "an[6]" IOSTANDARD = LVCMOS33;
+NET "an[5]" IOSTANDARD = LVCMOS33;
+NET "an[4]" IOSTANDARD = LVCMOS33;
+NET "an[3]" IOSTANDARD = LVCMOS33;
+NET "an[2]" IOSTANDARD = LVCMOS33;
+NET "an[1]" IOSTANDARD = LVCMOS33;
+NET "an[0]" IOSTANDARD = LVCMOS33;
+NET "sseg[6]" IOSTANDARD = LVCMOS33;
+NET "sseg[5]" IOSTANDARD = LVCMOS33;
+NET "sseg[4]" IOSTANDARD = LVCMOS33;
+NET "sseg[3]" IOSTANDARD = LVCMOS33;
+NET "sseg[2]" IOSTANDARD = LVCMOS33;
+NET "sseg[1]" IOSTANDARD = LVCMOS33;
+NET "sseg[0]" IOSTANDARD = LVCMOS33;
+NET "clk_sys" IOSTANDARD = LVCMOS33;
+NET "f_out" IOSTANDARD = LVCMOS33;
+NET "rst" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "f_out" LOC = H17;
+NET "clk_sys" LOC = E3;
+NET "an[7]" LOC = U13;
+NET "an[6]" LOC = K2;
+NET "an[5]" LOC = T14;
+NET "an[4]" LOC = P14;
+NET "an[3]" LOC = J14;
+NET "an[2]" LOC = T9;
+NET "an[1]" LOC = J18;
+NET "an[0]" LOC = J17;
+NET "sseg[6]" LOC = L18;
+NET "sseg[5]" LOC = T11;
+NET "sseg[4]" LOC = P15;
+NET "sseg[3]" LOC = K13;
+NET "sseg[2]" LOC = K16;
+NET "sseg[1]" LOC = R10;
+NET "sseg[0]" LOC = T10;
+
+# PlanAhead Generated IO constraints 
+
+NET "BTN[5]" PULLDOWN;
+NET "BTN[4]" PULLDOWN;
+NET "BTN[3]" PULLDOWN;
+NET "BTN[2]" PULLDOWN;
+NET "BTN[1]" PULLDOWN;
+NET "sseg[6]" PULLDOWN;
+NET "sseg[5]" PULLDOWN;
+NET "sseg[4]" PULLDOWN;
+NET "sseg[3]" PULLDOWN;
+NET "sseg[2]" PULLDOWN;
+NET "sseg[1]" PULLDOWN;
+NET "sseg[0]" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "BTN[5]" LOC = P17;
+NET "BTN[4]" LOC = M17;
+NET "BTN[3]" LOC = M18;
+NET "BTN[2]" LOC = P18;
+NET "BTN[1]" LOC = N17;
+NET "rst" LOC = C12;
+
+# PlanAhead Generated IO constraints 
+
+NET "rst" PULLUP;

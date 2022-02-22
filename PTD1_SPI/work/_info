@@ -1,0 +1,415 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/domis_chuj/Documents/[PTD]Lab1_SPI
+T_opt
+!s110 1620584602
+V7;=OHQAM3Z_B5j5UUdOgc1
+Z1 04 9 5 work testbench logic 1
+=1-94de80b0f5bb-6098289a-302-92c
+Z2 o-quiet -auto_acc_if_foreign -work work -debugdb +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7;67
+R0
+T_opt1
+Z5 !s110 1620679812
+V95I^67Z5@DdR``mOLOf5f3
+R1
+=1-0000e8ee1652-60999c84-1d6-2a88
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1620679880
+Vgd2cCfzMkAXn5z`TS:nF40
+R1
+=2-0000e8ee1652-60999cc8-2ef-2a88
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1620679968
+VDkVPD1IR;Sd6LeS<kjWd?0
+R1
+=3-0000e8ee1652-60999d20-12a-2a88
+R2
+R3
+n@_opt3
+R4
+R0
+T_opt4
+!s110 1620828004
+VhL679^o]^gin`gRhUDzK_0
+R1
+=1-0000e8ee1652-609bdf63-3d9-2124
+R2
+R3
+n@_opt4
+R4
+R0
+T_opt5
+!s110 1620828127
+V2DgkLU;H??zJE0W`JRhW[3
+R1
+=1-0000e8ee1652-609bdfdf-10f-1b9c
+R2
+R3
+n@_opt5
+R4
+R0
+T_opt6
+!s110 1620828181
+Vf08^3j1]HX[^GL205DaVc1
+R1
+=1-0000e8ee1652-609be015-1fa-1494
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt6
+R4
+Eadc
+Z6 w1620754192
+Z7 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z10 dC:/Users/IEUser/Desktop/PTD1_SPI
+Z11 8C:/Users/IEUser/Desktop/PTD1_SPI/ADC.vhd
+Z12 FC:/Users/IEUser/Desktop/PTD1_SPI/ADC.vhd
+l0
+L5
+VC:o>5CR?o=AHf]AV0J[BN3
+!s100 z3bf;3=3M2=g`IJgDdnLU1
+Z13 OL;C;10.7;67
+32
+Z14 !s110 1620827001
+!i10b 1
+Z15 !s108 1620827001.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/PTD1_SPI/ADC.vhd|
+Z17 !s107 C:/Users/IEUser/Desktop/PTD1_SPI/ADC.vhd|
+!i113 0
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1 CvgOpt 0
+Abehav
+R7
+R8
+R9
+Z20 DEx4 work 3 adc 0 22 C:o>5CR?o=AHf]AV0J[BN3
+l20
+L16
+VCWhDHLMgekDk`]Q40DeNB2
+!s100 LI]T:YZ5z24SOoIJ1BU0`0
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Eadc_unipolar_generic
+Z21 w1620583048
+R7
+R8
+R9
+R10
+Z22 8ADC_unipolar_generic.vhd
+Z23 FADC_unipolar_generic.vhd
+l0
+L5
+V2]fF4]kMKFngYVAkC2AJm3
+!s100 KVGVNBem=9L:f>KfkHlO90
+R13
+33
+R5
+!i10b 1
+Z24 !s108 1620679812.000000
+Z25 !s90 -reportprogress|300|-2008|spi_master.vhd|spi_slave_example.vhd|ADC_unipolar_generic.vhd|als_pmod.vhd|als_pmod_controller.vhd|user_logic.vhd|testbench.vhd|
+Z26 !s107 testbench.vhd|user_logic.vhd|als_pmod_controller.vhd|als_pmod.vhd|ADC_unipolar_generic.vhd|spi_slave_example.vhd|spi_master.vhd|
+!i113 0
+Z27 o-2008
+R19
+Aoriginal
+R7
+R8
+R9
+DEx4 work 20 adc_unipolar_generic 0 22 2]fF4]kMKFngYVAkC2AJm3
+l33
+L17
+VL0[ZiHeX4Hz64E93<:<080
+!s100 ka0f^T56876?V@K6[`[[81
+R13
+33
+R5
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R27
+R19
+Eals_pmod
+Z28 w1620826992
+R7
+R8
+R9
+R10
+Z29 8C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod.vhd
+Z30 FC:/Users/IEUser/Desktop/PTD1_SPI/als_pmod.vhd
+l0
+L5
+V?P1hbcZYOzJcXXM[W37]60
+!s100 D3P2209g<T]CAjigHUS=g1
+R13
+32
+Z31 !s110 1620827000
+!i10b 1
+Z32 !s108 1620827000.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod.vhd|
+Z34 !s107 C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod.vhd|
+!i113 0
+R18
+R19
+Abehav
+R20
+Z35 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z36 DEx4 work 9 spi_slave 0 22 =2YdNc1ZhNcHhABK8Ak@Y1
+R7
+R8
+R9
+Z37 DEx4 work 8 als_pmod 0 22 ?P1hbcZYOzJcXXM[W37]60
+l20
+L14
+V1M[jVRgMZU2Z56Xznf1a62
+!s100 N7ZNMno5bEALWa<MlGmRK3
+R13
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R18
+R19
+Eambient_light_sensor
+Z38 w1620761979
+R8
+R9
+R10
+Z39 8C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod_controller.vhd
+Z40 FC:/Users/IEUser/Desktop/PTD1_SPI/als_pmod_controller.vhd
+l0
+L26
+VYUb8Q[9e_>Ng:bCRFMiP>1
+!s100 8@T703eX[nCdBJ^5<TL1L2
+R13
+32
+R31
+!i10b 1
+R32
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod_controller.vhd|
+Z42 !s107 C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod_controller.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R8
+R9
+Z43 DEx4 work 20 ambient_light_sensor 0 22 YUb8Q[9e_>Ng:bCRFMiP>1
+l64
+L38
+Vce1QnG?DG746^>fTn`W`W2
+!s100 A20kT=;`iP5cakZ;g3JMd3
+R13
+32
+R31
+!i10b 1
+R32
+R41
+R42
+!i113 0
+R18
+R19
+Espi_master
+Z44 w1588838356
+Z45 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R35
+R8
+R9
+R10
+Z46 8C:/Users/IEUser/Desktop/PTD1_SPI/spi_master.vhd
+Z47 FC:/Users/IEUser/Desktop/PTD1_SPI/spi_master.vhd
+l0
+L30
+V_5h>k27flzmhg33`DoSX02
+!s100 jjn3RU`^?HJZVMLJXFf:Z3
+R13
+32
+R31
+!i10b 1
+R32
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/PTD1_SPI/spi_master.vhd|
+Z49 !s107 C:/Users/IEUser/Desktop/PTD1_SPI/spi_master.vhd|
+!i113 0
+R18
+R19
+Alogic
+R45
+R35
+R8
+R9
+DEx4 work 10 spi_master 0 22 _5h>k27flzmhg33`DoSX02
+l64
+L52
+V@j972k1TZLP31iA8m9FO10
+!s100 69hUiF@Hc^:CYBfFbZn513
+R13
+32
+R31
+!i10b 1
+R32
+R48
+R49
+!i113 0
+R18
+R19
+Espi_slave
+R44
+R35
+R8
+R9
+R10
+Z50 8C:/Users/IEUser/Desktop/PTD1_SPI/spi_slave_example.vhd
+Z51 FC:/Users/IEUser/Desktop/PTD1_SPI/spi_slave_example.vhd
+l0
+L31
+V=2YdNc1ZhNcHhABK8Ak@Y1
+!s100 f8m5aYZCdP48NVg0Lb=`21
+R13
+32
+R31
+!i10b 1
+R32
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/PTD1_SPI/spi_slave_example.vhd|
+Z53 !s107 C:/Users/IEUser/Desktop/PTD1_SPI/spi_slave_example.vhd|
+!i113 0
+R18
+R19
+Alogic
+R35
+R8
+R9
+R36
+l64
+L56
+VY_jKJl]5h9bzFgkYn=]2C2
+!s100 S<A`[AB[5M;Q]ok]:mRFj0
+R13
+32
+R31
+!i10b 1
+R32
+R52
+R53
+!i113 0
+R18
+R19
+Etestbench
+Z54 w1620827980
+Z55 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R7
+R8
+R9
+R10
+Z56 8C:/Users/IEUser/Desktop/PTD1_SPI/testbench.vhd
+Z57 FC:/Users/IEUser/Desktop/PTD1_SPI/testbench.vhd
+l0
+L6
+V0KnA;Qg2cPYYk?;J2S79a1
+!s100 B^MoU<>=Pf`S?<QDW]DG?2
+R13
+32
+Z58 !s110 1620827998
+!i10b 1
+Z59 !s108 1620827998.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/PTD1_SPI/testbench.vhd|
+Z61 !s107 C:/Users/IEUser/Desktop/PTD1_SPI/testbench.vhd|
+!i113 0
+R18
+R19
+Alogic
+R43
+Z62 DEx4 work 10 user_logic 0 22 [3kh7mi71=IBDZHzW5_J[0
+R37
+R55
+R7
+R8
+R9
+DEx4 work 9 testbench 0 22 0KnA;Qg2cPYYk?;J2S79a1
+l25
+L13
+VKBA2n2]_60OE0A]_cB5QU1
+!s100 ?[M3cUn`ogYI=0ilARHj`3
+R13
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 0
+R18
+R19
+Euser_logic
+Z63 w1620756451
+R7
+R8
+R9
+R10
+Z64 8C:/Users/IEUser/Desktop/PTD1_SPI/user_logic.vhd
+Z65 FC:/Users/IEUser/Desktop/PTD1_SPI/user_logic.vhd
+l0
+L5
+V[3kh7mi71=IBDZHzW5_J[0
+!s100 ^CndNhI98g<@X2YVMkNcJ2
+R13
+32
+R14
+!i10b 1
+R32
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/PTD1_SPI/user_logic.vhd|
+Z67 !s107 C:/Users/IEUser/Desktop/PTD1_SPI/user_logic.vhd|
+!i113 0
+R18
+R19
+Alogic
+R7
+R8
+R9
+R62
+l28
+L17
+VSPHfSV:el]KiANkZzLob83
+!s100 PObc3VC:^Pb^z^W?Hn3QY1
+R13
+32
+R14
+!i10b 1
+R32
+R66
+R67
+!i113 0
+R18
+R19

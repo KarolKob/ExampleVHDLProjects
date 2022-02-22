@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Karol/Desktop/Huffman/Huffman/Huffman.srcs/sources_1/imports/Kodowanie/Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'h_decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Karol/Desktop/Huffman/Huffman/Huffman.srcs/sim_1/imports/Kodowanie/tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

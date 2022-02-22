@@ -1,0 +1,21 @@
+# ustawienie zmiennej pomocniczej – krok czasu wymuszeń 
+set t 50
+# kompilacja plików VHDL do biblioteki domyślnej, std.2008 
+vcom -2008 gates.vhd mux_4x1.vhd 
+# załadowanie symulacji modelu mux_4x1 z biblioteki work 
+vsim -voptargs=+acc -debugDB work.mux_4x1 
+# wyświetlanie wszystkich sygnałów z poziomu głównego hierarchii 
+add wave * 
+# zdefiniowanie wymuszeń okresowych dla wszystkich wejść 
+force wejscie(0) 0 0, 1 [expr 1*$t]ns -r [expr 2*$t]ns
+force wejscie(1) 0 0, 1 [expr 2*$t]ns -r [expr 4*$t]ns
+force wejscie(2) 0 0, 1 [expr 4*$t]ns -r [expr 8*$t]ns 
+force wejscie(3) 0 0, 1 [expr 8*$t]ns -r [expr 16*$t]ns 
+force adres(0) 0 0, 1 [expr  50*$t]ns -r [expr 100*$t]ns 
+force adres(1) 0 0, 1 [expr 100*$t]ns -r [expr 200*$t]ns 
+# uruchomienie symulacji na czas wyliczony na podstawie zmiennej t 
+run [expr 400*$t]ns 
+# skalowanie przebiegów czasowych w oknie wave 
+wave zoom full 
+# generacja schematu dla modelu mux_4x1 z aktualnie załadowanej symulacji 
+add schematic -full sim:/mux_4x1

@@ -1,0 +1,59 @@
+C:/Users/IEUser/Desktop/PUR_Lab_1/modulo_136259_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PUR_Lab_1/modulo_136259_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package devices_pkg
+-- Loading entity counter
+-- Compiling entity modulo_136259_tb
+-- Compiling architecture behav of modulo_136259_tb
+
+} {} {}} C:/Users/IEUser/Desktop/PUR_Lab_1/devices.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PUR_Lab_1/devices.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package devices_pkg
+-- Compiling package body devices_pkg
+-- Loading package devices_pkg
+-- Compiling entity fd_qn
+-- Compiling architecture flip_flop of fd_qn
+-- Compiling entity dff
+-- Compiling architecture flip_flop of dff
+-- Compiling architecture latch of dff
+-- Loading entity dff
+-- Compiling entity bin2onehot
+-- Compiling architecture Behavioral of bin2onehot
+-- Compiling entity seven_seg
+-- Compiling architecture symulacja of seven_seg
+-- Compiling architecture synteza of seven_seg
+-- Loading entity seven_seg
+-- Compiling entity cntr_u
+-- Compiling architecture behav of cntr_u
+-- Compiling entity mux4xN
+-- Compiling architecture with_delay of mux4xN
+-- Compiling entity cb4_ce
+-- Compiling architecture behav of cb4_ce
+-- Compiling entity cb4_re
+-- Compiling architecture behav of cb4_re
+-- Compiling entity cb4_rel
+-- Compiling architecture behav of cb4_rel
+
+} {} {}} C:/Users/IEUser/Desktop/PUR_Lab_1/modulo_136259.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PUR_Lab_1/modulo_136259.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package devices_pkg
+-- Compiling entity counter
+-- Compiling architecture struct of counter
+
+} {} {}}

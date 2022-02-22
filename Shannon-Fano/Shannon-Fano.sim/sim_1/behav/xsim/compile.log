@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Karol/Desktop/Shannon-Fano/Shannon-Fano.srcs/sources_1/imports/Shannon-Fano/Coder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'h_coder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Karol/Desktop/Shannon-Fano/Shannon-Fano.srcs/sources_1/imports/Shannon-Fano/Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'h_decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Karol/Desktop/Shannon-Fano/Shannon-Fano.srcs/sim_1/imports/Shannon-Fano/tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'testbench'

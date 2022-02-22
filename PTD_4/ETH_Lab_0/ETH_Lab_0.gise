@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ETH_Lab_0.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="data_logger_v0.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="data_logger_v0.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="data_logger_v0.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="data_logger_v0.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="data_logger_v0.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="data_logger_v0.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="data_logger_v0.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="data_logger_v0.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="data_logger_v0_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="data_logger_v0_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="data_logger_v0_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="data_logger_v0_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1621959386" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1621959386">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1621959386" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7511197426225468900" xil_pn:start_ts="1621959386">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1621960616" xil_pn:in_ck="1113195324828713334" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5650516442851409534" xil_pn:start_ts="1621960616">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1621959386" xil_pn:in_ck="4818277674324529434" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-459522682271852646" xil_pn:start_ts="1621959386">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1621959386" xil_pn:in_ck="7901717443632204382" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1621959386">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1621959386" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8581763409519967948" xil_pn:start_ts="1621959386">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1621960625" xil_pn:in_ck="-1942308351873669116" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="1689226324152574866" xil_pn:start_ts="1621960616">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="data_logger_v0.lso"/>
+      <outfile xil_pn:name="data_logger_v0.ngc"/>
+      <outfile xil_pn:name="data_logger_v0.ngr"/>
+      <outfile xil_pn:name="data_logger_v0.prj"/>
+      <outfile xil_pn:name="data_logger_v0.stx"/>
+      <outfile xil_pn:name="data_logger_v0.syr"/>
+      <outfile xil_pn:name="data_logger_v0.xst"/>
+      <outfile xil_pn:name="data_logger_v0_vhdl.prj"/>
+      <outfile xil_pn:name="data_logger_v0_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

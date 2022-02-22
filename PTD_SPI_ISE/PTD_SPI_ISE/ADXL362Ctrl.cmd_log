@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/IEUser/Desktop/PTD_SPI_ISE/PTD_SPI_ISE/ADXL362Ctrl.xst" -ofn "C:/Users/IEUser/Desktop/PTD_SPI_ISE/PTD_SPI_ISE/ADXL362Ctrl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 ADXL362Ctrl.ngc ADXL362Ctrl.ngd  

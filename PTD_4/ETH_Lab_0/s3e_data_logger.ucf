@@ -1,0 +1,81 @@
+
+# UART, sync
+#
+# NET "uart_rx" LOC = r7;
+# NET "uart_rx" IOSTANDARD = LVCMOS33;
+# NET "uart_tx" LOC = m14;
+# NET "uart_tx" IOSTANDARD = LVCMOS33;
+# NET "uart_tx" DRIVE = 4;
+# NET "uart_tx" SLEW = SLOW;
+
+
+NET "led_out" LOC = f9; #led7
+# net "led_out[*]" ;
+NET "led_out" IOSTANDARD = LVCMOS33;
+
+############################################################################
+## Clock constraints                                                        
+############################################################################
+NET "data_clk" LOC = C9;
+NET "clk_25pi45" LOC = f12; #led0
+NET "eth_clk" LOC = t7;
+
+NET "data_clk" IOSTANDARD = LVCMOS33;
+NET "clk_25pi45" IOSTANDARD = LVCMOS33;
+
+NET "eth_clk" CLOCK_DEDICATED_ROUTE = FALSE; 
+PIN "net_dcm_inst/DCM_SP_INST.CLKIN" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "eth_clk" TNM_NET = "SYS_CLK_ETH";
+TIMESPEC TS_SYS_CLK_ETH = PERIOD "SYS_CLK_ETH" 40 ns HIGH 50 %;
+
+NET "data_clk" TNM_NET = "SYS_CLK20";
+TIMESPEC TS_SYS_CLK20 = PERIOD "SYS_CLK20" 20 ns HIGH 50 %;
+
+############################################################################
+# Clock domain crossing
+NET "*/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/wr_pntr_gc[*]" TIG;
+NET "*/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gcx.clkx/rd_pntr_gc[*]" TIG;
+NET "*/rst_inst/done" TIG;
+
+# cooment if no debug mode
+#PIN "dcm_gen1.net_dcm_debug_inst/clkout3_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "clk_25pi45" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "clk_25pi45" TIG;
+#### Module MII - Ethernet constraints
+
+NET "tx_data_h[3]" LOC = t5;
+NET "tx_data_h[3]" IOSTANDARD = LVCMOS33;
+NET "tx_data_h[2]" LOC = r5;
+NET "tx_data_h[2]" IOSTANDARD = LVCMOS33;
+NET "tx_data_h[1]" LOC = t15;
+NET "tx_data_h[1]" IOSTANDARD = LVCMOS33;
+NET "tx_data_h[0]" LOC = r11;
+NET "tx_data_h[0]" IOSTANDARD = LVCMOS33;
+NET "tx_en_h" LOC = p15;
+NET "tx_en_h" IOSTANDARD = LVCMOS33;
+NET "tx_er_h" LOC = r6;
+NET "tx_er_h" IOSTANDARD = LVCMOS33;
+
+NET "rx_data[3]" LOC = v14;
+NET "rx_data[3]" IOSTANDARD = LVCMOS33;
+NET "rx_data[2]" LOC = u11;
+NET "rx_data[2]" IOSTANDARD = LVCMOS33;
+NET "rx_data[1]" LOC = t11;
+NET "rx_data[1]" IOSTANDARD = LVCMOS33;
+NET "rx_data[0]" LOC = v8;
+NET "rx_data[0]" IOSTANDARD = LVCMOS33;
+NET "rx_dv" LOC = v2;
+NET "rx_dv" IOSTANDARD = LVCMOS33;
+NET "rx_er" LOC = u14;
+NET "rx_er" IOSTANDARD = LVCMOS33;
+NET "rx_clk" LOC = v3;
+NET "rx_clk" IOSTANDARD = LVCMOS33;
+NET "rstn" TIG;
+NET "rstn" LOC = e12; #led1 
+NET "rstn" IOSTANDARD = LVCMOS33;
+
+NET "rx_clk" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "eth_clk" IOSTANDARD = LVCMOS33;
+
+# # end

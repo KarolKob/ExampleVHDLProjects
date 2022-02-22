@@ -1,0 +1,42 @@
+C:/Users/IEUser/Desktop/MIAS_Lab_1/Comparison_logic.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\IEUser\Desktop\MIAS_Lab_1\Comparison_logic.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity comparison_logic
+-- Compiling architecture behavioral of comparison_logic
+-- Compiling architecture structural of comparison_logic
+-- Loading entity comparison_logic
+
+} {} {}} {C:/Users/IEUser/Desktop/MIAS_Lab_1/Comparison logic.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/IEUser/Desktop/MIAS_Lab_1/Comparison logic.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity comparison_logic
+-- Compiling architecture behavioral of comparison_logic
+-- Compiling architecture structural of comparison_logic
+-- Loading entity comparison_logic
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_1/Comparison_test_bench.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_1/Comparison_test_bench.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading entity comparison_logic
+-- Loading entity test_bench_generator
+-- Compiling entity comparison_test_bench
+-- Compiling architecture test of comparison_test_bench
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_1/test_bench_generator.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:\Users\IEUser\Desktop\MIAS_Lab_1\test_bench_generator.vhd}
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_bench_generator
+-- Compiling architecture behav of test_bench_generator
+
+} {} {}}

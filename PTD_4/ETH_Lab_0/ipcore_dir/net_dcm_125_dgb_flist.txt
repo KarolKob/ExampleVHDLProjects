@@ -1,0 +1,2 @@
+# Output products list for <net_dcm_125_dgb>
+net_dcm_125_dgb_flist.txt

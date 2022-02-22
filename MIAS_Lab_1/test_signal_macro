@@ -1,0 +1,17 @@
+# kompilacja plików VHDL do biblioteki domyślnej, std.2008 
+vcom -2008 test_signal_generator.vhd
+# załadowanie modelu do symulatora
+vsim -voptargs=+acc -debugDB work.test_signal_generator
+# dodanie wszystkich sygnałów do okna wyników
+add wave *
+# budowa wymuszeń
+force clk 0 0, 1 {20 ns} -repeat 40ns
+force s1 1 0, 0 {10 ns} -repeat 20ns
+force s2 1 0, 0 10 ns, 1 30 ns, 0 {50 ns} -repeat 70ns
+force s3(1) 0 0, 1 {20 ns} -repeat 30ns
+force s3(0) 1 0, 0 10 ns, 1 {20 ns} -repeat 30 ns
+force s4 2 10 ns, 5 {40 ns} -repeat 50ns
+# uruchomienie symulacji 
+run 100 ns
+# skalowanie przebiegów czasowych w oknie wave 
+wave zoom full 

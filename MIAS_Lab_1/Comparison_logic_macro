@@ -1,0 +1,17 @@
+# ustawienie zmiennej pomocniczej – krok czasu wymuszeń 
+set t 25
+# kompilacja plików VHDL do biblioteki domyślnej, std.2008 
+vcom -2008 Comparison_logic.vhd
+# załadowanie symulacji modelu mux_4x1 z biblioteki work 
+vsim -voptargs=+acc -debugDB work.Comparison_logic 
+# wyświetlanie wszystkich sygnałów z poziomu głównego hierarchii 
+add wave *
+# zdefiniowanie wymuszeń okresowych dla wszystkich wejść 
+force A(1) 0 0, 1 [expr 1*$t]ns -r [expr 2*$t]ns
+force A(0) 0 0, 1 [expr 2*$t]ns -r [expr 4*$t]ns
+force B(1) 0 0, 1 [expr 4*$t]ns -r [expr 8*$t]ns
+force B(0) 0 0, 1 [expr 8*$t]ns -r [expr 16*$t]ns
+# uruchomienie symulacji na czas wyliczony na podstawie zmiennej t 
+run [expr 20*$t]ns
+# skalowanie przebiegów czasowych w oknie wave 
+wave zoom full

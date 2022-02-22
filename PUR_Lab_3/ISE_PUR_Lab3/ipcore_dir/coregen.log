@@ -1,0 +1,43 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Customizing IP...
+Qt: Untested Windows version 6.2 detected!
+Release 14.6 - Xilinx CORE Generator IP GUI Launcher P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Finished Customizing.
+Generating IP...
+WARNING:sim:89 - A core named <vio_1> already exists in the output directory.
+   Output products for this core may be overwritten.
+Configuring files for vio_1 root...
+Gathering HDL files for vio_1 root...
+Creating XST project for vio_1...
+Creating XST script file for vio_1...
+Creating XST instantiation file for vio_1...
+Running XST for vio_1...
+XST: HDL Parsing
+WARNING:coreutil - XST failed for vio_1. ERROR:HDLCompiler:1091 - "Unknown" Line
+   0: Save failed due to mkdir failure
+   ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+   ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+   ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+
+       invoked from within
+   "runXST $ComponentName GenerationOptions $TopLevel"
+       (procedure "deliverXSTNetlist" line 15)
+       invoked from within
+   "deliverXSTNetlist $ComponentName {} "root" $BaseIP "
+       (procedure "components::vio_1::generate" line 31)
+       invoked from within
+   "components::${ComponentName}::generate 1"
+       (procedure "::xilinx::sim::generation::generatePsfCore" line 59)
+       invoked from within
+   "::xilinx::sim::generation::generatePsfCore {chipscope_vio_v1_05_a} {vio_1}
+   {ALL}"ERROR:sim - XST failed for vio_1. ERROR:HDLCompiler:1091 - "Unknown" Line 0:
+   Save failed due to mkdir failure
+
+ERROR:sim - Error found during generation.
+ERROR:sim - Failed to generate 'vio_1'.  XST failed for vio_1.
+   ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+
+Wrote CGP file for project 'vio_1'.

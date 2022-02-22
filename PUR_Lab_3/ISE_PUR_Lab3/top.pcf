@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed May 26 23:42:19 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "sseg<4>" LOCATE = SITE "P15" LEVEL 1;
+COMP "sseg<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "sseg<2>" LOCATE = SITE "K16" LEVEL 1;
+COMP "sseg<1>" LOCATE = SITE "R10" LEVEL 1;
+COMP "sseg<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "sseg<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "sseg<5>" LOCATE = SITE "T11" LEVEL 1;
+COMP "rst" LOCATE = SITE "C12" LEVEL 1;
+COMP "clk_sys" LOCATE = SITE "E3" LEVEL 1;
+COMP "BTN<1>" LOCATE = SITE "N17" LEVEL 1;
+COMP "BTN<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "BTN<3>" LOCATE = SITE "M18" LEVEL 1;
+COMP "BTN<4>" LOCATE = SITE "M17" LEVEL 1;
+COMP "BTN<5>" LOCATE = SITE "P17" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "an<4>" LOCATE = SITE "P14" LEVEL 1;
+COMP "an<5>" LOCATE = SITE "T14" LEVEL 1;
+COMP "an<6>" LOCATE = SITE "K2" LEVEL 1;
+COMP "an<7>" LOCATE = SITE "U13" LEVEL 1;
+COMP "f_out" LOCATE = SITE "H17" LEVEL 1;
+SCHEMATIC END;
+

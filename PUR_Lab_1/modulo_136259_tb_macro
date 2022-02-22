@@ -1,0 +1,5 @@
+vcom -2008 modulo_136259_tb.vhd
+vsim -voptargs=+acc work.modulo_136259_tb  
+add wave *  
+run -all  
+wave zoom full 

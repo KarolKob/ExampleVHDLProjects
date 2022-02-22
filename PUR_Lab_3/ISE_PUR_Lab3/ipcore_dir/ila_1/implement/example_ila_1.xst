@@ -1,0 +1,14 @@
+run
+-top example_ila_1
+-ifn example_ila_1.prj
+-ofmt NGC
+-ofn example_ila_1.ngc
+-p xc7a100t-csg324-3
+-ifmt mixed
+-opt_mode Speed
+-opt_level 2
+-read_cores YES
+-bufg 0
+-iobuf YES
+#-iob auto
+ 

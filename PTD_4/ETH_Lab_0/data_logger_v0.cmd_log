@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Users/IEUser/Desktop/PTD_4/ETH_Lab_0/data_logger_v0.xst" -ofn "C:/Users/IEUser/Desktop/PTD_4/ETH_Lab_0/data_logger_v0.syr" 
+xst -intstyle ise -ifn "C:/Users/IEUser/Desktop/PTD_4/ETH_Lab_0/data_logger_v0.xst" -ofn "C:/Users/IEUser/Desktop/PTD_4/ETH_Lab_0/data_logger_v0.syr" 
+xst -intstyle ise -ifn "C:/Users/IEUser/Desktop/PTD_4/ETH_Lab_0/data_logger_v0.xst" -ofn "C:/Users/IEUser/Desktop/PTD_4/ETH_Lab_0/data_logger_v0.syr" 
+xst -intstyle ise -ifn "C:/Users/IEUser/Desktop/PTD_4/ETH_Lab_0/data_logger_v0.xst" -ofn "C:/Users/IEUser/Desktop/PTD_4/ETH_Lab_0/data_logger_v0.syr" 

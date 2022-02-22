@@ -1,0 +1,113 @@
+C:/Users/IEUser/Desktop/MIAS_LAB_4/sample_hold.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/sample_hold.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sample_hold
+-- Compiling architecture s_h of sample_hold
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/dac.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/dac.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dac
+-- Compiling architecture behav of dac
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/adc.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/adc.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adc
+-- Compiling architecture behav of adc
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/sigma-delta.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/sigma-delta.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sigma_delta
+-- Compiling architecture behav of sigma_delta
+-- Loading entity integrator
+-- Loading package NUMERIC_STD
+-- Loading entity adc
+-- Loading entity dac
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/Decymator.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/Decymator.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity decymator
+-- Compiling architecture behav of decymator
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/zdelay.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/zdelay.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity zdelay
+-- Compiling architecture arch_delay of zdelay
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package sine_package
+-- Compiling entity sine_wave
+-- Compiling architecture arch1 of sine_wave
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_package.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_package.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package sine_package
+-- Compiling package body sine_package
+-- Loading package sine_package
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/linearCombination.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/linearCombination.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity linearCombination
+-- Compiling architecture lin_com of linearCombination
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package sine_package
+-- Compiling entity sine_wave_tb
+-- Compiling architecture bench of sine_wave_tb
+-- Loading entity sample_hold
+-- Loading entity sigma_delta
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity decymator
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_LAB_4/integrator.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_LAB_4/integrator.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity integrator
+-- Compiling architecture behav of integrator
+-- Loading package NUMERIC_STD
+-- Loading entity zdelay
+
+} {} {}}

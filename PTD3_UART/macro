@@ -1,0 +1,7 @@
+vcom -2008 lrc.vhd uart.vhd user_logic.vhd uart_correspondent.vhd testbench.vhd
+vsim -voptargs=+acc work.testbench  
+add wave -position end sim:/testbench/uut1/*
+add wave -position end sim:/testbench/uut2/*
+run 5 ms
+wave zoom full 
+

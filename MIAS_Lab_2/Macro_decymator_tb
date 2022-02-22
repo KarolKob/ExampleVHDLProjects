@@ -1,0 +1,6 @@
+vcom -2008 Decymator_tb.vhd
+vsim -voptargs=+acc work.decymator_tb  
+vsim decymator_tb -gosr_tb=8
+add wave *  
+run 1000 ns 
+wave zoom full 

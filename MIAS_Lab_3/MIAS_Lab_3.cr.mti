@@ -1,0 +1,120 @@
+C:/Users/IEUser/Desktop/MIAS_Lab_3/sine_wave.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/sine_wave.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package sine_package
+-- Compiling entity sine_wave
+-- Compiling architecture arch1 of sine_wave
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/ZDelay.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/ZDelay.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ZDelay
+-- Compiling architecture arch_delay of ZDelay
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/pulse.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/pulse.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity pulse
+-- Compiling architecture behav of pulse
+-- Loading entity ZDelay
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/step_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/step_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity step_tb
+-- Compiling architecture bench of step_tb
+-- Loading entity step
+-- Loading package MATH_REAL
+-- Loading entity integrator
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/sine_package.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/sine_package.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package sine_package
+-- Compiling package body sine_package
+-- Loading package sine_package
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/linearCombination.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/linearCombination.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity linearCombination
+-- Compiling architecture lin_com of linearCombination
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/sine_wave_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/sine_wave_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package sine_package
+-- Compiling entity sine_wave_tb
+-- Compiling architecture bench of sine_wave_tb
+-- Loading entity sample_hold
+-- Loading entity ZDelay
+-- Loading entity linearCombination
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/pulse_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/pulse_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pulse_tb
+-- Compiling architecture bench of pulse_tb
+-- Loading package MATH_REAL
+-- Loading entity pulse
+-- Loading entity integrator
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/integrator.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/integrator.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Compiling entity integrator
+-- Compiling architecture int_a of integrator
+-- Loading package NUMERIC_STD
+-- Loading entity ZDelay
+-- Compiling architecture int_b of integrator
+-- Loading entity integrator
+-- Compiling architecture int_c of integrator
+-- Loading entity integrator
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/sample_hold.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/sample_hold.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sample_hold
+-- Compiling architecture s_h of sample_hold
+
+} {} {}} C:/Users/IEUser/Desktop/MIAS_Lab_3/step.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/MIAS_Lab_3/step.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity step
+-- Compiling architecture behav of step
+-- Loading entity ZDelay
+
+} {} {}}

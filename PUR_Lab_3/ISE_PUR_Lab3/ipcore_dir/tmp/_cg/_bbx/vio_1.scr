@@ -1,0 +1,15 @@
+set -xsthdpdir "//vboxsvr/vb_share/Aktualne projekty/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/tmp/_cg/_bbx/vio_1_chipscope_vio_v1_05_a_xst"
+run
+-ifn "//vboxsvr/vb_share/Aktualne projekty/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/tmp/_cg/_bbx/vio_1.prj"
+-top vio_1
+-p xc7a100t-csg324-3
+-work_lib work
+-bus_delimiter <>
+-lso "//vboxsvr/vb_share/Aktualne projekty/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/tmp/_cg/_bbx/_default.lso"
+-bufg 0
+-ifmt MIXED
+-iobuf NO
+-checkcmdline no
+-arch artix7
+-ofmt NGC
+-ofn "//vboxsvr/vb_share/Aktualne projekty/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/tmp/_cg/vio_1.ngc"

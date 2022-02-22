@@ -1,0 +1,73 @@
+C:/Users/IEUser/Desktop/PTD1_SPI/spi_master.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PTD1_SPI/spi_master.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity spi_master
+-- Compiling architecture logic of spi_master
+
+} {} {}} C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity als_pmod
+-- Compiling architecture behav of als_pmod
+-- Loading package std_logic_arith
+-- Loading entity spi_slave
+-- Loading entity ADC
+
+} {} {}} C:/Users/IEUser/Desktop/PTD1_SPI/ADC.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PTD1_SPI/ADC.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ADC
+-- Compiling architecture behav of ADC
+
+} {} {}} C:/Users/IEUser/Desktop/PTD1_SPI/user_logic.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PTD1_SPI/user_logic.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity user_logic
+-- Compiling architecture logic of user_logic
+
+} {} {}} C:/Users/IEUser/Desktop/PTD1_SPI/testbench.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PTD1_SPI/testbench.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package ENV
+** Warning: C:/Users/IEUser/Desktop/PTD1_SPI/testbench.vhd(4): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+-- Compiling entity testbench
+-- Compiling architecture logic of testbench
+-- Loading entity als_pmod
+-- Loading entity user_logic
+-- Loading entity ambient_light_sensor
+
+} {} {}} C:/Users/IEUser/Desktop/PTD1_SPI/spi_slave_example.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PTD1_SPI/spi_slave_example.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity spi_slave
+-- Compiling architecture logic of spi_slave
+** Warning: C:/Users/IEUser/Desktop/PTD1_SPI/spi_slave_example.vhd(77): (vcom-1073) Non-locally static choice (association #1, choice #1) is allowed only if it is the only choice of the only association.
+
+} {} {}} C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod_controller.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PTD1_SPI/als_pmod_controller.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ambient_light_sensor
+-- Compiling architecture behavior of ambient_light_sensor
+
+} {} {}}

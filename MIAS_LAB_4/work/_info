@@ -1,0 +1,484 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/IEUser/Desktop/PTD3_UART
+T_opt
+!s110 1622210011
+V1X<z:W^fK_BHBfHXMH2AN1
+04 12 5 work sine_wave_tb bench 1
+=1-0000e8ee1652-60b0f5db-15f-35a8
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+Eadc
+Z0 w1622031602
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 dC:/Users/IEUser/Desktop/MIAS_LAB_4
+Z5 8C:/Users/IEUser/Desktop/MIAS_LAB_4/adc.vhd
+Z6 FC:/Users/IEUser/Desktop/MIAS_LAB_4/adc.vhd
+l0
+L7
+VIOGXe=zQ`WgcNm8@f<KoM2
+!s100 ]7U?QiKPg=CG4[Q:CG7:L1
+Z7 OL;C;10.7;67
+32
+Z8 !s110 1622031850
+!i10b 1
+Z9 !s108 1622031850.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/adc.vhd|
+Z11 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/adc.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehav
+R1
+R2
+R3
+Z14 DEx4 work 3 adc 0 22 IOGXe=zQ`WgcNm8@f<KoM2
+l15
+L14
+Vh<A1E2Kg@l`GIX6CJ_;KV3
+!s100 hzkc4cM22f>=:igJ3]eHd2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Edac
+Z15 w1622031595
+R1
+R2
+R3
+R4
+Z16 8C:/Users/IEUser/Desktop/MIAS_LAB_4/dac.vhd
+Z17 FC:/Users/IEUser/Desktop/MIAS_LAB_4/dac.vhd
+l0
+L5
+Vj23cOA]MzX=X>g>KEVzzX2
+!s100 `eQDzJl0b7APKkVOIZ<4m1
+R7
+32
+Z18 !s110 1622031847
+!i10b 1
+Z19 !s108 1622031847.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/dac.vhd|
+Z21 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/dac.vhd|
+!i113 0
+R12
+R13
+Abehav
+R1
+R2
+R3
+Z22 DEx4 work 3 dac 0 22 j23cOA]MzX=X>g>KEVzzX2
+l13
+L12
+V3NK6WzCWX`o^d[C1<M;F=0
+!s100 @PblOHSP:inSbVL;86U3F1
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R12
+R13
+Edecymator
+Z23 w1622033966
+Z24 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z25 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+R4
+Z26 8C:/Users/IEUser/Desktop/MIAS_LAB_4/Decymator.vhd
+Z27 FC:/Users/IEUser/Desktop/MIAS_LAB_4/Decymator.vhd
+l0
+L6
+VadMM;I^>UD:ibM83R<WGk0
+!s100 NLo6WWCF5QUA62I4J@EPM3
+R7
+32
+Z28 !s110 1622034137
+!i10b 1
+Z29 !s108 1622034137.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/Decymator.vhd|
+Z31 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/Decymator.vhd|
+!i113 0
+R12
+R13
+Abehav
+R24
+R25
+R1
+R2
+R3
+Z32 DEx4 work 9 decymator 0 22 adMM;I^>UD:ibM83R<WGk0
+l23
+L18
+V^Q;FXB_]KCf<W[K;bL8dV2
+!s100 QWffBcO9jh8OjRHM3k:z>0
+R7
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R12
+R13
+Eintegrator
+Z33 w1622209962
+R2
+R3
+R4
+Z34 8C:/Users/IEUser/Desktop/MIAS_LAB_4/integrator.vhd
+Z35 FC:/Users/IEUser/Desktop/MIAS_LAB_4/integrator.vhd
+l0
+L4
+Vi@_N^>CbNfX;3fRPURFMI1
+!s100 nU6nl?A7EVmHI_oR31O3P1
+R7
+32
+Z36 !s110 1622209976
+!i10b 1
+Z37 !s108 1622209976.000000
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/integrator.vhd|
+Z39 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/integrator.vhd|
+!i113 0
+R12
+R13
+Abehav
+R1
+Z40 DEx4 work 6 zdelay 0 22 K=C23hM7YPAGIl4Hn8>>M3
+R2
+R3
+DEx4 work 10 integrator 0 22 i@_N^>CbNfX;3fRPURFMI1
+l20
+L16
+VUP?[hiod^]=4lkc=dF>EU1
+!s100 aS<=f:i=f`:=EX72oO@WG2
+R7
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R12
+R13
+Elinearcombination
+Z41 w1619554146
+R1
+R2
+R3
+R4
+Z42 8C:/Users/IEUser/Desktop/MIAS_LAB_4/linearCombination.vhd
+Z43 FC:/Users/IEUser/Desktop/MIAS_LAB_4/linearCombination.vhd
+l0
+L5
+Vn=I9naNKgkX0KVme588K72
+!s100 T=fz1Z8VfNLVSnLfN[7Y[0
+R7
+32
+Z44 !s110 1622208615
+!i10b 1
+Z45 !s108 1622208615.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/linearCombination.vhd|
+Z47 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/linearCombination.vhd|
+!i113 0
+R12
+R13
+Alin_com
+R1
+R2
+R3
+DEx4 work 17 linearcombination 0 22 n=I9naNKgkX0KVme588K72
+l20
+L18
+VSATO5_38;2Le^[@ihn[OF3
+!s100 _i4>jo`DmM`lRhddC;hIj3
+R7
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 0
+R12
+R13
+Esample_hold
+Z48 w1622027465
+R1
+R2
+R3
+R4
+Z49 8C:/Users/IEUser/Desktop/MIAS_LAB_4/sample_hold.vhd
+Z50 FC:/Users/IEUser/Desktop/MIAS_LAB_4/sample_hold.vhd
+l0
+L5
+Vb^hnAz8P8I]GOnb_fmHnh0
+!s100 42oLVQEeYBXKOhOO^OT=S2
+R7
+32
+Z51 !s110 1622031051
+!i10b 1
+Z52 !s108 1622031051.000000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/sample_hold.vhd|
+Z54 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/sample_hold.vhd|
+!i113 0
+R12
+R13
+As_h
+R1
+R2
+R3
+Z55 DEx4 work 11 sample_hold 0 22 b^hnAz8P8I]GOnb_fmHnh0
+l20
+L17
+V`V9HWeT??z@U2N7:Eb=fj3
+!s100 kSeoV3^CJVaVgJ^EW5JZo0
+R7
+32
+R51
+!i10b 1
+R52
+R53
+R54
+!i113 0
+R12
+R13
+Esigma_delta
+Z56 w1622031757
+R2
+R3
+R4
+Z57 8C:/Users/IEUser/Desktop/MIAS_LAB_4/sigma-delta.vhd
+Z58 FC:/Users/IEUser/Desktop/MIAS_LAB_4/sigma-delta.vhd
+l0
+L4
+VCQV<LPQR2oD3n25kz[L6G3
+!s100 c47S<9JN6aU`eSZmZGIB=3
+R7
+32
+Z59 !s110 1622031915
+!i10b 1
+Z60 !s108 1622031915.000000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/sigma-delta.vhd|
+Z62 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/sigma-delta.vhd|
+!i113 0
+R12
+R13
+Abehav
+R22
+R1
+R14
+DEx4 work 10 integrator 0 22 YP]W@nch=7aK2@@2P9j0U0
+R2
+R3
+Z63 DEx4 work 11 sigma_delta 0 22 CQV<LPQR2oD3n25kz[L6G3
+l21
+L16
+VPSI0A?^cPW3:2f84^8n@^1
+!s100 MXY=]he7Z1[@ZUbgZJ=d60
+R7
+32
+R59
+!i10b 1
+R60
+R61
+R62
+!i113 0
+R12
+R13
+Psine_package
+R2
+R3
+Z64 w1615050404
+R4
+Z65 8C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_package.vhd
+Z66 FC:/Users/IEUser/Desktop/MIAS_LAB_4/sine_package.vhd
+l0
+L4
+V7K3fc0nF3JC@0K9N=aM510
+!s100 ICQI:^cj81UmEBdBj>U4O0
+R7
+32
+b1
+Z67 !s110 1622031889
+!i10b 1
+Z68 !s108 1622031889.000000
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_package.vhd|
+Z70 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_package.vhd|
+!i113 0
+R12
+R13
+Bbody
+Z71 DPx4 work 12 sine_package 0 22 7K3fc0nF3JC@0K9N=aM510
+R2
+R3
+l0
+L18
+VLalEo:mV;VzU8HQW9ZDah0
+!s100 WjM@=9ZCA[50B^kW@gL8A2
+R7
+32
+R67
+!i10b 1
+R68
+R69
+R70
+!i113 0
+R12
+R13
+Esine_wave
+R64
+R71
+R1
+R2
+R3
+R4
+Z72 8C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave.vhd
+Z73 FC:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave.vhd
+l0
+L8
+VEFnC<fGVh39Li7;<LPoNA2
+!s100 U8Q]U7>EkhVaD1F;_faC]1
+R7
+32
+Z74 !s110 1622031894
+!i10b 1
+Z75 !s108 1622031893.000000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave.vhd|
+Z77 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave.vhd|
+!i113 0
+R12
+R13
+Aarch1
+R71
+R1
+R2
+R3
+DEx4 work 9 sine_wave 0 22 EFnC<fGVh39Li7;<LPoNA2
+l18
+L13
+V6LX1mlUdc@8=O4L@3?n1c3
+!s100 Hn6BazXzF2R9TZWJdIjGQ3
+R7
+32
+R74
+!i10b 1
+R75
+R76
+R77
+!i113 0
+R12
+R13
+Esine_wave_tb
+Z78 w1622034390
+R71
+R1
+R2
+R3
+R4
+Z79 8C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave_tb.vhd
+Z80 FC:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave_tb.vhd
+l0
+L6
+VRmMmzPl0c5;nQWC14fjR93
+!s100 LR^oHjG2dL8af4IRS_TRa3
+R7
+32
+Z81 !s110 1622209981
+!i10b 1
+Z82 !s108 1622209981.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave_tb.vhd|
+Z84 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/sine_wave_tb.vhd|
+!i113 0
+R12
+R13
+Abench
+R24
+R25
+R32
+R63
+R55
+R71
+R1
+R2
+R3
+DEx4 work 12 sine_wave_tb 0 22 RmMmzPl0c5;nQWC14fjR93
+l30
+L14
+VGcMaAiaZiSKahF^z88`CT0
+!s100 F:b:=kDa?hX>?0c4;2>S43
+R7
+32
+R81
+!i10b 1
+R82
+R83
+R84
+!i113 0
+R12
+R13
+Ezdelay
+Z85 w1622028038
+R1
+R2
+R3
+R4
+Z86 8C:/Users/IEUser/Desktop/MIAS_LAB_4/zdelay.vhd
+Z87 FC:/Users/IEUser/Desktop/MIAS_LAB_4/zdelay.vhd
+l0
+L5
+VK=C23hM7YPAGIl4Hn8>>M3
+!s100 B`M;b3hEEjcj6ogLKkGUU3
+R7
+32
+Z88 !s110 1622031017
+!i10b 1
+Z89 !s108 1622031017.000000
+Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_LAB_4/zdelay.vhd|
+Z91 !s107 C:/Users/IEUser/Desktop/MIAS_LAB_4/zdelay.vhd|
+!i113 0
+R12
+R13
+Aarch_delay
+R1
+R2
+R3
+R40
+l22
+L17
+VGSNAX<OlJNNF1TE_7AN481
+!s100 Oe2I:g<SVC9EMQC9<nP>S3
+R7
+32
+R88
+!i10b 1
+R89
+R90
+R91
+!i113 0
+R12
+R13

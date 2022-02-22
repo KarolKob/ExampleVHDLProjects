@@ -1,0 +1,182 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter xsthdpdir set to //vboxsvr/vb_share/Aktualne projekty/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/tmp/_cg/_bbx/vio_1_chipscope_vio_v1_05_a_xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> WARNING:Xst:1583 - You are using an internal switch '-checkcmdline'.
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "//vboxsvr/vb_share/Aktualne projekty/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/tmp/_cg/_bbx/vio_1.prj"
+Input Format                       : MIXED
+
+---- Target Parameters
+Target Device                      : xc7a100t-csg324-3
+Output Format                      : NGC
+Output File Name                   : "//vboxsvr/vb_share/Aktualne projekty/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/tmp/_cg/vio_1.ngc"
+
+---- Source Options
+Top Module Name                    : vio_1
+Work Library                       : work
+Architecture Name                  : artix7
+
+---- Target Options
+Add Generic Clock Buffer(BUFG)     : 0
+Add IO Buffers                     : NO
+
+---- General Options
+Bus Delimiter                      : <>
+Library Search Order               : "//vboxsvr/vb_share/Aktualne projekty/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/tmp/_cg/_bbx/_default.lso"
+
+---- Other Options
+checkcmdline                       : no
+
+=========================================================================
+
+WARNING:Xst:29 - Optimization Effort not specified
+The following parameters have been added:
+Optimization Goal                  : SPEED
+
+=========================================================================
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\xbip_utils_v1_00_a\bip_utils_pkg.vhd" into library xbip_utils_v1_00_a
+Parsing package <bip_utils_pkg>.
+Parsing package body <bip_utils_pkg>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_pro_package.vhd" into library chipscope_lib_v1_03_a
+Parsing package <cs_pro_package>.
+Parsing package body <cs_pro_package>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_controlbus_xstworkaround.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_controlbus_xstworkaround>.
+Parsing architecture <syn> of entity <cs_controlbus_xstworkaround>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\async_transfer.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <async_transfer>.
+Parsing architecture <virtex> of entity <async_transfer>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\edge_detector.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <edge_detector>.
+Parsing architecture <virtex> of entity <edge_detector>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux1024.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux1024>.
+Parsing architecture <syn> of entity <cs_mux1024>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux128.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux128>.
+Parsing architecture <syn> of entity <cs_mux128>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux16.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux16>.
+Parsing architecture <syn> of entity <cs_mux16>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux2.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux2>.
+Parsing architecture <syn> of entity <cs_mux2>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux2048.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux2048>.
+Parsing architecture <syn> of entity <cs_mux2048>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux256.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux256>.
+Parsing architecture <syn> of entity <cs_mux256>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux32.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux32>.
+Parsing architecture <syn> of entity <cs_mux32>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux4.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux4>.
+Parsing architecture <syn> of entity <cs_mux4>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux4096.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux4096>.
+Parsing architecture <syn> of entity <cs_mux4096>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux512.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux512>.
+Parsing architecture <syn> of entity <cs_mux512>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux64.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux64>.
+Parsing architecture <syn> of entity <cs_mux64>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux8.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux8>.
+Parsing architecture <syn> of entity <cs_mux8>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux8192.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux8192>.
+Parsing architecture <syn> of entity <cs_mux8192>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\cs_mux.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <cs_mux>.
+Parsing architecture <syn> of entity <cs_mux>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\async_mux.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <async_mux>.
+Parsing architecture <syn> of entity <async_mux>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\counter.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <counter>.
+Parsing architecture <virtex> of entity <counter>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_lib_v1_03_a\xsrlc16e.vhd" into library chipscope_lib_v1_03_a
+Parsing entity <XSRLC16E>.
+Parsing architecture <syn> of entity <xsrlc16e>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\vio_package.vhd" into library chipscope_vio_v1_05_a
+Parsing package <vio_package>.
+Parsing package body <vio_package>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\vio_async_in.vhd" into library chipscope_vio_v1_05_a
+Parsing entity <vio_async_in>.
+Parsing architecture <virtex> of entity <vio_async_in>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\vio_async_out.vhd" into library chipscope_vio_v1_05_a
+Parsing entity <vio_async_out>.
+Parsing architecture <virtex> of entity <vio_async_out>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\vio_output_update_cell.vhd" into library chipscope_vio_v1_05_a
+Parsing entity <vio_output_update_cell>.
+Parsing architecture <virtex> of entity <vio_output_update_cell>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\vio_status.vhd" into library chipscope_vio_v1_05_a
+Parsing entity <vio_status>.
+Parsing architecture <virtex> of entity <vio_status>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\vio_sync_in.vhd" into library chipscope_vio_v1_05_a
+Parsing entity <vio_sync_in>.
+Parsing architecture <virtex> of entity <vio_sync_in>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\vio_sync_out.vhd" into library chipscope_vio_v1_05_a
+Parsing entity <vio_sync_out>.
+Parsing architecture <virtex> of entity <vio_sync_out>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\vio_sync_out_addr_gen.vhd" into library chipscope_vio_v1_05_a
+Parsing entity <vio_sync_out_addr_gen>.
+Parsing architecture <virtex> of entity <vio_sync_out_addr_gen>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\vio_core.vhd" into library chipscope_vio_v1_05_a
+Parsing entity <vio_core>.
+Parsing architecture <virtex> of entity <vio_core>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\chipscope_vio_v1_05_a\chipscope_vio.vhd" into library chipscope_vio_v1_05_a
+Parsing entity <chipscope_vio>.
+Parsing architecture <virtex> of entity <chipscope_vio>.
+Parsing VHDL file "\\vboxsvr\vb_share\Aktualne projekty\PUR_Lab_3\ISE_PUR_Lab3\ipcore_dir\tmp\_cg\_bbx\vio_1.vhd" into library work
+Parsing entity <vio_1>.
+Parsing architecture <artix7> of entity <vio_1>.
+ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+--> 
+
+Total memory usage is 4557248 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,236 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed May 26 16:15:16 2021
+# Process ID: 10276
+# Log file: C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -329 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/pa.fromNetlist.tcl
+# create_project -name ISE_PUR_Lab3 -dir "C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/planAhead_run_1" -part xc7a100tcsg324-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/top.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3} {ipcore_dir} }
+# add_files [list {ipcore_dir/icon_1.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/ila_1.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/vio_1.ncf}] -fileset [get_property constrset [current_run]]
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "top.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/top.ucf' to fileset 'constrs_1'
+# add_files [list {top.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7a100tcsg324-3
+Release 14.6 - ngc2edif P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top.ngc ...
+WARNING:NetListWriters:298 - No output is written to top.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file top.edif ...
+ngc2edif: Total memory usage is 4348888 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/ISE_PUR_Lab3.data/cache/top_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/ISE_PUR_Lab3.data/cache/top_ngc_zx.edif]
+Release 14.6 - ngc2edif P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ila_1.ngc ...
+WARNING:NetListWriters:298 - No output is written to ila_1.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_1 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_1 is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file ila_1.edif ...
+ngc2edif: Total memory usage is 4357080 kilobytes
+
+Reading core file 'C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/ila_1.ngc' for (cell view 'ila_1', library 'top_lib', file 'top.ngc')
+Parsing EDIF File [./planAhead_run_1/ISE_PUR_Lab3.data/cache/ila_1_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/ISE_PUR_Lab3.data/cache/ila_1_ngc_zx.edif]
+Release 14.6 - ngc2edif P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design icon_1.ngc ...
+WARNING:NetListWriters:298 - No output is written to icon_1.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_1 is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file icon_1.edif ...
+ngc2edif: Total memory usage is 4348888 kilobytes
+
+Reading core file 'C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/icon_1.ngc' for (cell view 'icon_1', library 'top_lib', file 'top.ngc')
+Parsing EDIF File [./planAhead_run_1/ISE_PUR_Lab3.data/cache/icon_1_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/ISE_PUR_Lab3.data/cache/icon_1_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 932 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/icon_1.ncf]
+Finished Parsing UCF File [C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/icon_1.ncf]
+Parsing UCF File [C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/ila_1.ncf]
+Finished Parsing UCF File [C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/ipcore_dir/ila_1.ncf]
+Parsing UCF File [C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/top.ucf]
+Finished Parsing UCF File [C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3/top.ucf]
+WARNING: [Chipscope 16-85] Could not trace control bus of detected core attached to CONTROL1. This core will be ignored.
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 932 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+  FD => FDCE: 194 instances
+  FDC => FDCE: 22 instances
+  FDE => FDCE: 68 instances
+  FDP => FDPE: 295 instances
+  FDR => FDRE: 70 instances
+  FDS => FDSE: 12 instances
+  LDC => LDCE: 1 instances
+  MUXCY_L => MUXCY: 156 instances
+  MUXF5 => LUT3: 2 instances
+  MUXF6 => LUT3: 1 instances
+  RAMB36 => RAMB36E1: 37 instances
+  SRL16 => SRL16E: 73 instances
+
+Phase 0 | Netlist Checksum: 213d06da
+link_design: Time (s): elapsed = 00:00:14 . Memory (MB): peak = 826.977 ; gain = 363.438
+set_property iostandard LVCMOS18 [get_ports [list {BTN[5]}]]
+set_property package_pin "" [get_ports [list  {BTN[5]}]]
+set_property package_pin "" [get_ports [list  {BTN[4]}]]
+set_property package_pin "" [get_ports [list  {BTN[4]}]]
+set_property iostandard LVCMOS33 [get_ports [list {BTN[5]} {BTN[4]} {BTN[3]} {BTN[2]} {BTN[1]}]]
+set_property iostandard LVCMOS33 [get_ports [list {an[7]} {an[6]} {an[5]} {an[4]} {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {sseg[6]} {sseg[5]} {sseg[4]} {sseg[3]} {sseg[2]} {sseg[1]} {sseg[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list clk_sys]]
+set_property iostandard LVCMOS33 [get_ports [list f_out]]
+set_property iostandard LVCMOS33 [get_ports [list rst]]
+startgroup
+set_property package_pin H17 [get_ports f_out]
+endgroup
+startgroup
+set_property package_pin E3 [get_ports clk_sys]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports {BTN[5]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {BTN[4]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {BTN[4]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {BTN[4]}]]
+set_property is_loc_fixed true [get_ports [list  {BTN[4]}]]
+set_property is_loc_fixed false [get_ports [list  {BTN[4]}]]
+set_property package_pin "" [get_ports [list  {BTN[4]}]]
+startgroup
+set_property package_pin V4 [get_ports {BTN[3]}]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports {BTN[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {BTN[1]}]
+endgroup
+startgroup
+set_property package_pin U13 [get_ports {an[7]}]
+endgroup
+startgroup
+set_property package_pin K2 [get_ports {an[6]}]
+endgroup
+startgroup
+set_property package_pin T14 [get_ports {an[5]}]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports {an[4]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {an[3]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {an[2]}]
+endgroup
+startgroup
+set_property package_pin J18 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin J17 [get_ports {an[0]}]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports {sseg[6]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {sseg[5]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {sseg[4]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {sseg[3]}]
+endgroup
+startgroup
+set_property package_pin K16 [get_ports {sseg[2]}]
+endgroup
+startgroup
+set_property package_pin R10 [get_ports {sseg[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {sseg[0]}]
+endgroup
+set_property pulltype PULLDOWN [get_ports [list {BTN[5]}]]
+set_property pulltype PULLDOWN [get_ports [list {BTN[4]}]]
+set_property pulltype PULLDOWN [get_ports [list {BTN[3]}]]
+set_property pulltype PULLDOWN [get_ports [list {BTN[2]}]]
+set_property pulltype PULLDOWN [get_ports [list {BTN[1]}]]
+set_property pulltype PULLDOWN [get_ports [list {sseg[6]} {sseg[5]} {sseg[4]} {sseg[3]} {sseg[2]} {sseg[1]} {sseg[0]}]]
+set_property package_pin "" [get_ports [list  {BTN[4]}]]
+save_constraints
+startgroup
+set_property package_pin P17 [get_ports {BTN[5]}]
+endgroup
+startgroup
+set_property package_pin M17 [get_ports {BTN[4]}]
+endgroup
+startgroup
+set_property package_pin M18 [get_ports {BTN[3]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {BTN[2]}]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports {BTN[1]}]
+endgroup
+startgroup
+set_property package_pin C12 [get_ports rst]
+endgroup
+set_property pulltype PULLUP [get_ports [list rst]]
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Users/IEUser/Desktop/PUR_Lab_3/ISE_PUR_Lab3\planAhead_pid10276.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed May 26 16:46:39 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

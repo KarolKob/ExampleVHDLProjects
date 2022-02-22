@@ -1,0 +1,299 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.7/examples
+T_opt
+!s110 1617375906
+VE2=>IeU0XfdIMVOY@:dYU1
+Z1 04 21 10 work test_signal_generator test_bench 1
+=2-0000e8ee1652-606732a2-215-110c
+Z2 o-quiet -auto_acc_if_foreign -work work -debugdb +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7;67
+R0
+T_opt1
+!s110 1617375928
+VF5CEoW]0Aj6`diZB6SimA2
+R1
+=3-0000e8ee1652-606732b8-a2-110c
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1616584767
+VQm2C[U0_T>_??o64j8_c60
+R1
+=1-080027e6e559-605b203f-231-550
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1617376095
+V?@]G[M^0L[oGCn8RloRg51
+R1
+=4-0000e8ee1652-6067335f-2b1-110c
+R2
+R3
+n@_opt3
+R4
+R0
+T_opt4
+!s110 1617376236
+Vjz_FfznEJe3Q240?7@TOL2
+R1
+=5-0000e8ee1652-606733ec-2f0-110c
+R2
+R3
+n@_opt4
+R4
+R0
+T_opt5
+!s110 1617376256
+VMUAEn:o<<7MNRX>LY]S7d0
+R1
+=6-0000e8ee1652-606733ff-300-110c
+R2
+R3
+n@_opt5
+R4
+R0
+T_opt6
+!s110 1617376512
+VLOCfkeoAPKNS8KhZ9YHJ53
+R1
+=7-0000e8ee1652-60673500-214-110c
+R2
+R3
+n@_opt6
+R4
+R0
+T_opt7
+!s110 1617376669
+Vn>J9^d[LFDeoFAJmm[KfK2
+R1
+=8-0000e8ee1652-6067359d-169-110c
+R2
+R3
+n@_opt7
+R4
+R0
+T_opt8
+!s110 1617376789
+Vk7:gUjVQWJQbT^jN=QRD^2
+R1
+=1-0000e8ee1652-60673614-310-1318
+R2
+R3
+n@_opt8
+R4
+R0
+Ecomparison_logic
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+33
+Z8 !s110 1617375056
+!i10b 1
+Z9 w1616599370
+Z10 dC:/Users/IEUser/Desktop/MIAS_Lab_1
+Z11 8Comparison_logic.vhd
+Z12 FComparison_logic.vhd
+l0
+L5
+V3g=em:GXhCNE1m>el<Tg^1
+!s100 g^gjNXW_g5__]Rh1@4VIg1
+Z13 OL;C;10.7;67
+Z14 !s108 1617375055.000000
+Z15 !s90 -reportprogress|300|-2008|Comparison_logic.vhd|
+Z16 !s107 Comparison_logic.vhd|
+!i113 0
+Z17 o-2008
+Z18 tExplicit 1 CvgOpt 0
+Astructural
+R5
+R6
+R7
+Z19 DEx4 work 16 comparison_logic 0 22 3g=em:GXhCNE1m>el<Tg^1
+33
+R8
+!i10b 1
+l32
+L28
+VN=QfiLmYFW<fMm`=80@2?1
+!s100 C:X86oo>OzA_c1hB4[QdJ2
+R13
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Abehavioral
+R5
+R6
+R7
+R19
+33
+R8
+!i10b 1
+l11
+L10
+V[@Pm3Z=4PTU:f@W7F@`2F2
+!s100 1ODVmM4<PnCBh@FQCZ`A@0
+R13
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Ecomparison_test_bench
+Z20 DEx4 work 20 test_bench_generator 0 22 IKKk6FJ7^PEgMoT;lej^g1
+R19
+R5
+R6
+R7
+32
+Z21 !s110 1617201169
+!i10b 1
+Z22 w1617201142
+R10
+Z23 8C:/Users/IEUser/Desktop/MIAS_Lab_1/Comparison_test_bench.vhd
+Z24 FC:/Users/IEUser/Desktop/MIAS_Lab_1/Comparison_test_bench.vhd
+l0
+L7
+Vd9CadG]mAGKMA?<k?Qa7F2
+!s100 `[>bC8AD[D`74`GlQEaJj0
+R13
+Z25 !s108 1617201169.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/IEUser/Desktop/MIAS_Lab_1/Comparison_test_bench.vhd|
+Z27 !s107 C:/Users/IEUser/Desktop/MIAS_Lab_1/Comparison_test_bench.vhd|
+!i113 0
+Z28 o-work work -2002 -explicit
+R18
+Atest
+R5
+R6
+R7
+DEx4 work 21 comparison_test_bench 0 22 d9CadG]mAGKMA?<k?Qa7F2
+32
+R21
+!i10b 1
+l13
+L10
+VHPdVJYg=BVe0d92NMOMZe0
+!s100 7nKmALfN<2XaFf?Dcch?>1
+R13
+R25
+R26
+R27
+!i113 0
+R28
+R18
+Etest_bench_generator
+R6
+R7
+32
+R21
+!i10b 1
+Z29 w1617201118
+R10
+Z30 8C:\Users\IEUser\Desktop\MIAS_Lab_1\test_bench_generator.vhd
+Z31 FC:\Users\IEUser\Desktop\MIAS_Lab_1\test_bench_generator.vhd
+l0
+L4
+VIKKk6FJ7^PEgMoT;lej^g1
+!s100 jd63ebjTCzOXXUTFK0FPT1
+R13
+R25
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:\Users\IEUser\Desktop\MIAS_Lab_1\test_bench_generator.vhd|
+Z33 !s107 C:\Users\IEUser\Desktop\MIAS_Lab_1\test_bench_generator.vhd|
+!i113 0
+R28
+R18
+Abehav
+R6
+R7
+R20
+32
+R21
+!i10b 1
+l13
+L9
+VXTJ5m5XR1IzJX1_EKS[=Z1
+!s100 VSnd;E]BQ718?UJB9[10g3
+R13
+R25
+R32
+R33
+!i113 0
+R28
+R18
+Etest_signal_generator
+Z34 w1615924088
+R6
+R7
+R10
+Z35 8test_signal_generator.vhd
+Z36 Ftest_signal_generator.vhd
+l0
+L4
+VDoX`amhFZIEQmbNk^DDej0
+!s100 YHALRam8LhMLKWRPI00I32
+R13
+33
+Z37 !s110 1617376883
+!i10b 1
+Z38 !s108 1617376883.000000
+Z39 !s90 -reportprogress|300|-2008|test_signal_generator.vhd|
+Z40 !s107 test_signal_generator.vhd|
+!i113 0
+R17
+R18
+Atest_bench
+R6
+R7
+Z41 DEx4 work 21 test_signal_generator 0 22 DoX`amhFZIEQmbNk^DDej0
+l75
+L74
+V5:Fd:>2X2oZAeE3_3jgEQ1
+!s100 HMj1eX6P>SfcCKXZ@Pa9c3
+R13
+33
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R17
+R18
+Abehav
+R6
+R7
+R41
+l16
+L11
+VlTPaRZMh8ib;i3:>Fg>0G3
+!s100 SGa;iIWH5ARQ;PB9bIgZh0
+R13
+33
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 0
+R17
+R18

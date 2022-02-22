@@ -1,0 +1,140 @@
+# Reading C:/modeltech64_10.7/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {key_fsm_c_tb.tdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 02:13:19 on May 20,2021
+# vcom -reportprogress 300 -explicit -93 ../pkg_symuli.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# ** Warning: ../pkg_symuli.vhd(12): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Compiling package pkg_symuli
+# -- Compiling package body pkg_symuli
+# -- Loading package pkg_symuli
+# End time: 02:13:19 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 02:13:19 on May 20,2021
+# vcom -reportprogress 300 -explicit -93 netgen/par/key_fsm_c_timesim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Primitives
+# -- Loading package VPACKAGE
+# -- Compiling entity key_fsm_c
+# -- Compiling architecture Structure of key_fsm_c
+# End time: 02:13:19 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 02:13:19 on May 20,2021
+# vcom -reportprogress 300 -explicit -93 ../key_fsm_c_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package ENV
+# -- Loading package pkg_symuli
+# -- Compiling entity key_fsm_c_tb
+# -- Compiling architecture behavior of key_fsm_c_tb
+# -- Loading package VITAL_Timing
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Primitives
+# -- Loading package VPACKAGE
+# -- Loading entity key_fsm_c
+# End time: 02:13:19 on May 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -sdfmax "/uut=netgen/par/key_fsm_c_timesim.sdf" -lib work work.key_fsm_c_tb 
+# Start time: 02:13:19 on May 20,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.env(body)
+# Loading work.pkg_symuli(body)
+# Loading vital2000.vital_timing(body)
+# Loading simprim.vcomponents
+# Loading vital2000.vital_primitives(body)
+# Loading simprim.vpackage(body)
+# Loading work.key_fsm_c_tb(behavior)#1
+# Loading work.key_fsm_c(structure)#1
+# Loading simprim.x_lut6(x_lut6_v)#1
+# Loading simprim.x_lut5(x_lut5_v)#1
+# Loading simprim.x_one(x_one_v)#1
+# Loading simprim.x_carry4(x_carry4_v)#1
+# Loading simprim.x_buf(x_buf_v)#1
+# Loading simprim.x_ff(x_ff_v)#1
+# Loading simprim.x_obuf(x_obuf_v)#1
+# Loading simprim.x_zero(x_zero_v)#1
+# Loading simprim.x_ibuf_intermdisable_tpwrgt(x_ibuf_intermdisable_tpwrgt_v)#1
+# Loading simprim.x_ckbuf(x_ckbuf_v)#1
+# Loading simprim.x_mux2(x_mux2_v)#1
+# Loading simprim.x_roc(x_roc_v)#1
+# Loading simprim.x_toc(x_toc_v)#1
+# Loading instances from netgen/par/key_fsm_c_timesim.sdf
+# Loading timing data from netgen/par/key_fsm_c_timesim.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /key_fsm_c_tb File: ../key_fsm_c_tb.vhd
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Causality operation skipped due to absence of debug database file
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading instances from netgen/par/key_fsm_c_timesim.sdf
+# Loading timing data from netgen/par/key_fsm_c_timesim.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /key_fsm_c_tb File: ../key_fsm_c_tb.vhd
+run -all
+# Expected:      Actual:        
+# 81234567       81234567   _OK_    
+# 51200 ns
+# Expected:      Actual:        
+# 78123456       78123456   _OK_    
+# 111200 ns
+# Expected:      Actual:        
+# 67812345       67812345   _OK_    
+# 171200 ns
+# Expected:      Actual:        
+# 56781234       56781234   _OK_    
+# 231200 ns
+# Expected:      Actual:        
+# 45678123       45678123   _OK_    
+# 291200 ns
+# Expected:      Actual:        
+# 34567812       34567812   _OK_    
+# 351200 ns
+# Expected:      Actual:        
+# 23456781       23456781   _OK_    
+# 411200 ns
+# Expected:      Actual:        
+# 12345678       12345678   _OK_    
+# 471200 ns
+# ** Note: Data structure takes 19516432 bytes of memory
+#          Process time 0.53 seconds
+#          stop
+#    Time: 506100 ns  Iteration: 0  Instance: /key_fsm_c_tb
+# Break in Subprogram stop_after at ../pkg_symuli.vhd line 219
+# End time: 06:28:36 on May 28,2021, Elapsed time: 196:15:17
+# Errors: 0, Warnings: 1

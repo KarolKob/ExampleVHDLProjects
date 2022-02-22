@@ -1,0 +1,92 @@
+C:/Users/IEUser/Desktop/PUR_Lab_1/mux_4x1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PUR_Lab_1/mux_4x1.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package gates_pkg
+-- Compiling entity mux_4x1
+-- Compiling architecture struct of mux_4x1
+
+} {} {}} C:/Users/IEUser/Desktop/PUR_Lab_1/devices.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PUR_Lab_1/devices.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package devices_pkg
+-- Compiling package body devices_pkg
+-- Loading package devices_pkg
+-- Compiling entity fd_qn
+-- Compiling architecture flip_flop of fd_qn
+-- Compiling entity dff
+-- Compiling architecture flip_flop of dff
+-- Compiling architecture latch of dff
+-- Loading entity dff
+-- Compiling entity bin2onehot
+-- Compiling architecture Behavioral of bin2onehot
+-- Compiling entity seven_seg
+-- Compiling architecture symulacja of seven_seg
+-- Compiling architecture synteza of seven_seg
+-- Loading entity seven_seg
+-- Compiling entity cntr_u
+-- Compiling architecture behav of cntr_u
+-- Compiling entity mux4xN
+-- Compiling architecture with_delay of mux4xN
+-- Compiling entity cb4_ce
+-- Compiling architecture behav of cb4_ce
+-- Compiling entity cb4_re
+-- Compiling architecture behav of cb4_re
+-- Compiling entity cb4_rel
+-- Compiling architecture behav of cb4_rel
+
+} {} {}} C:/Users/IEUser/Desktop/PUR_Lab_1/gates.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/IEUser/Desktop/PUR_Lab_1/gates.vhd
+Model Technology ModelSim SE-64 vcom 10.7 Compiler 2017.12 Dec  7 2017
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package gates_pkg
+-- Compiling package body gates_pkg
+-- Loading package gates_pkg
+-- Compiling entity and2
+-- Compiling architecture dataflow of and2
+-- Compiling entity and3
+-- Compiling architecture dataflow of and3
+-- Compiling entity and4
+-- Compiling architecture dataflow of and4
+-- Compiling entity and5
+-- Compiling architecture dataflow of and5
+-- Compiling entity or2
+-- Compiling architecture dataflow of or2
+-- Compiling entity or3
+-- Compiling architecture dataflow of or3
+-- Compiling entity or4
+-- Compiling architecture dataflow of or4
+-- Compiling entity or5
+-- Compiling architecture dataflow of or5
+-- Compiling entity inverter
+-- Compiling architecture dataflow of inverter
+-- Compiling entity nand2
+-- Compiling architecture dataflow of nand2
+-- Compiling entity nand3
+-- Compiling architecture dataflow of nand3
+-- Compiling entity nand4
+-- Compiling architecture dataflow of nand4
+-- Compiling entity nand5
+-- Compiling architecture dataflow of nand5
+-- Compiling entity nor2
+-- Compiling architecture dataflow of nor2
+-- Compiling entity nor3
+-- Compiling architecture dataflow of nor3
+-- Compiling entity nor4
+-- Compiling architecture dataflow of nor4
+-- Compiling entity nor5
+-- Compiling architecture dataflow of nor5
+-- Compiling entity not1
+-- Compiling architecture dataflow of not1
+-- Compiling entity xor2
+-- Compiling architecture dataflow of xor2
+-- Compiling entity xnor2
+-- Compiling architecture dataflow of xnor2
+
+} {} {}}
